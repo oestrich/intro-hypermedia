@@ -1,0 +1,8 @@
+{
+  "name": "Introduction to Hypermedia APIs",
+  "sections": [
+    {"section": "intro"},
+    {"section": "rest"},
+    {"section": "hateoas"}
+  ]
+}
