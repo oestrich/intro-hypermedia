@@ -1,9 +1,53 @@
 !SLIDE
-
-# HATEOAS
-
-Hypermedia As The Engine Of Application State
+# Uniform Interface
 
 !SLIDE
+# Uniform Interface
 
-# Links
+* Identification of resources
+* Manipulation of resources via representations
+* Self descriptive messages
+* Hypermedia as the engine of application state
+
+!SLIDE
+# Identification of resources
+
+.notes This is what a user looks like
+
+!SLIDE
+# Manipulation of resources via representations
+
+.notes JSON, XML
+
+!SLIDE
+# Self descriptive messages
+Statelessness
+
+.notes Built into HTTP
+
+!SLIDE
+# Hypermedia as the engine of application state
+
+HATEOAS
+
+.notes The Rest of REST [Jon Moore Oredev 2010]
+
+!SLIDE
+# Clients should not know how to build routes
+
+!SLIDE
+# Enter HAL
+
+JSON cannot describe a link
+
+!SLIDE
+# HAL is a media type for defining links in JSON
+
+application/hal+json
+
+!SLIDE
+# The Goal
+
+GET /
+
+.notes GET / and walk the entire API

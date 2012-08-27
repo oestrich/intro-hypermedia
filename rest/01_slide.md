@@ -2,11 +2,22 @@
 # REST
 ## REpresentational State Transfer
 
-!SLIDE bullets
-# Friendly with HTTP
+!SLIDE
+# Relies heavily on HTTP
 
-* Methods and Routes
+* Methods and URIs
 * Media types
+* Client Server
+
+!SLIDE
+# Relies heavily on HTTP (Cont)
+
+* Stateless
+* Caching
+* Uniform Interface (HATEOAS)
+
+!SLIDE
+# Methods and URIs
 
 !SLIDE
 # Five Routes
@@ -42,8 +53,48 @@ Replace or create an order
 
 Delete an order
 
-!SLIDE bullets
+!SLIDE
+# A bit about HTTP Verbs
+
+!SLIDE
+# GET
+
+* Retrieve a resource
+
+!SLIDE
+# POST
+
+* Most generic verb
+* Can use it for anything
+
+!SLIDE
+# PUT
+
+* Update or Create a resouce, "Put this resource at this url"
+* Must be the entire resource, not partial
+
+!SLIDE
+# DELETE
+
+* Delete a resource
+
+!SLIDE
+# PATCH
+
+* Update a resource partially
+* Must be a diff
+
+!SLIDE
 # Media Types
+
+!SLIDE
+# Formats
+* JSON
+* XML
+* XHTML
+
+!SLIDE
+# Setting the Media Type
 
 * Accept Headers
 * Rails way - .:format
