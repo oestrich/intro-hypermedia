@@ -61,17 +61,23 @@ Delete an order
 
 * Retrieve a resource
 
+.notes should never change a resource
+
 !SLIDE
 # POST
 
 * Most generic verb
 * Can use it for anything
 
+.notes no semantic meaning
+
 !SLIDE
 # PUT
 
 * Update or Create a resouce, "Put this resource at this url"
 * Must be the entire resource, not partial
+
+.notes rails does this wrong
 
 !SLIDE
 # DELETE
@@ -83,6 +89,8 @@ Delete an order
 
 * Update a resource partially
 * Must be a diff
+
+.notes no current standard diff format, https://secure.designinghypermediaapis.com/nodes/much-ado-about-patch
 
 !SLIDE
 # Media Types

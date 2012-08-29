@@ -1,5 +1,6 @@
 !SLIDE
-# Introduction to Hypermedia APIs
+# Questions?
+
 ## Eric Oestrich
 ### [@ericoestrich](http://twitter.com/ericoestrich)
 ### [oestri.ch](http://oestri.ch)

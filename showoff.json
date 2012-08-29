@@ -3,6 +3,8 @@
   "sections": [
     {"section": "intro"},
     {"section": "rest"},
-    {"section": "hateoas"}
+    {"section": "hateoas"},
+    {"section": "rails"},
+    {"section": "outro"}
   ]
 }

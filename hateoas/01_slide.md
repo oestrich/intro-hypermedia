@@ -1,6 +1,8 @@
 !SLIDE
 # Uniform Interface
 
+.notes the part most people don't get right
+
 !SLIDE
 # Uniform Interface
 
@@ -35,6 +37,8 @@ HATEOAS
 !SLIDE
 # Clients should not know how to build routes
 
+.notes most important thing about hateoas
+
 !SLIDE
 # Enter HAL
 
@@ -44,6 +48,8 @@ JSON cannot describe a link
 # HAL is a media type for defining links in JSON
 
 application/hal+json
+
+.notes +json is actually doesn't mean "if you can't load application/hal treat me as json" it exapnds to "application/json"
 
 !SLIDE
 # The Goal
