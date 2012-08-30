@@ -1,4 +1,7 @@
 !SLIDE
+# What is a Hypermedia API?
+
+!SLIDE
 # REST
 ## REpresentational State Transfer
 
